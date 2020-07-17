@@ -8,21 +8,22 @@ This is the boilerplate for creating an API server in AdonisJs, it comes pre-con
 4. Lucid ORM
 5. Migrations and seeds
 
-## Setup
+## Pré requisitos
 
-Use the adonis command to install the blueprint
+1. Nodejs
+2. Mysql
+3. Adonis js ( npm i -g @adonisjs/cli )
 
-```bash
-adonis new yardstick --api-only
-```
 
-or manually clone the repo and then run `npm install`.
+## Instalação
+
+1. npm i na raiz do projeto
 
 
 ### Migrations
 
-Run the following command to run startup migrations.
+1. `adonis migration:run`
 
-```js
-adonis migration:run
-```
+
+### Iniciar
+Para iniciar o servidor basta executar o comando `adonis serve --dev` na raiz do projeto
