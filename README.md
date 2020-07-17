@@ -18,6 +18,7 @@ This is the boilerplate for creating an API server in AdonisJs, it comes pre-con
 ## Instalação
 
 1. npm i na raiz do projeto
+2. configurar .env de acordo com banco criado
 
 
 ### Migrations
